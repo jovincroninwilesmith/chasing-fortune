@@ -1,4 +1,4 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
+ompiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
 *.so
@@ -22,8 +22,10 @@ _testmain.go
 *.exe
 *.test
 *.prof
-*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-*.txt
-cover.html
-README.html
+
+
+#GoDeps
+GoDeps/
